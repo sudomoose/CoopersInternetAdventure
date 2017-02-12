@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SimpleCYOATest.exe" version="1.0.0.0" publicKeyToken="febe437fd91036e8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SimpleCYOATest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SimpleCYOATest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpleCYOATest.exe" size="9176">
+      <assemblyIdentity name="SimpleCYOATest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1VssobUJItiGgj02NztNQbfG2z9Py02Yb4a6fb2mXUY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SimpleCYOATest.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-UP3FQD8U\User" issuerKeyHash="6e4db3bae99397fbdad48609d9e9f39111d64b77" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RvLBDg1BjTnPX0P9RTYr3VjDatxzIPGAxZkNpOr6qrA=</DigestValue></Reference></SignedInfo><SignatureValue>KQ8CwTMuqbxv1eF6lkFpJ+pauMTowDwlZGhmIeAMkIku67VCvqqW1CC+kuXIJiG96WMUnHWdV+7f63PhORJubZNgTt39WGMO+igP0JW+j/bITdI31L1REMHxMM9GPxncmC6nJUFlB+BEzxt52jP+yXPs/7hPocSisVid4fEyzZI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0LvTGCpkPnsgAzzrG6uicOgbnmXa6lZzS2+QVa4FVT5JnUUo7Iws+hCdfi7dVWgOjnq/mQ3JW9MUdk4iLEBjhlszZmozM5q48PW+nxR0uMDPXojxGC82LZNqou+sNGwV/BtShgajcdUDakp5Ize6gNNY4eDRKvbQ6tz6v5UxZVc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b0aafaeaa40d99c580f12073dc6ac358dd2b3645fd435fcf398d410d0ec1f246" Description="" Url=""><as:assemblyIdentity name="SimpleCYOATest.exe" version="1.0.0.0" publicKeyToken="febe437fd91036e8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-UP3FQD8U\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>j2VM4sgfMZeLbY7bpJHV3LxgwRbTixgjkfDt4HlSJHc=</DigestValue></Reference></SignedInfo><SignatureValue>Y8/SrOrqW0JH9CadmkL6GARkIxbsOLywmONdLX3PK19k5kZHq8+rlVO0nMJZHGYEr4QwHi8+3C87zXgHlaQ98WabLF1S/dIWChVd/5ULIFUOftLVHbsJmq2HZdlgOvJ7U0e3+5RptFRwXb53c1Se9tTo+1Ksbwlbpi82FTJNM6g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0LvTGCpkPnsgAzzrG6uicOgbnmXa6lZzS2+QVa4FVT5JnUUo7Iws+hCdfi7dVWgOjnq/mQ3JW9MUdk4iLEBjhlszZmozM5q48PW+nxR0uMDPXojxGC82LZNqou+sNGwV/BtShgajcdUDakp5Ize6gNNY4eDRKvbQ6tz6v5UxZVc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQftG9nwoAsqRC/HWxEEQ1gjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABBAFAAVABPAFAALQBVAFAAMwBGAFEARAA4AFUAXABVAHMAZQByMB4XDTE2MDcwODE4MjkzNVoXDTE3MDcwOTAwMjkzNVowMzExMC8GA1UEAx4oAEwAQQBQAFQATwBQAC0AVQBQADMARgBRAEQAOABVAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0LvTGCpkPnsgAzzrG6uicOgbnmXa6lZzS2+QVa4FVT5JnUUo7Iws+hCdfi7dVWgOjnq/mQ3JW9MUdk4iLEBjhlszZmozM5q48PW+nxR0uMDPXojxGC82LZNqou+sNGwV/BtShgajcdUDakp5Ize6gNNY4eDRKvbQ6tz6v5UxZVcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCY4g2l8XU5ZlrSZmjtDw1acJdX4F46n/r+JrxSw5FrzDFtE5hBZ3ATkBVttKbCubsiLj5YC1kwkm6OEX4oF3TIntTdvySEGOi8DWijAuavLWqrgz49gNDXeppKeKRzVlPh6uBQsdASP8xXM6brAhO2sfKYwzJBfvG1nQT3rl/O4g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,10 @@
+c:\users\user\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\bin\Debug\SimpleCYOATest.exe.config
+c:\users\user\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\obj\Debug\SimpleCYOATest.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\bin\Debug\SimpleCYOATest.exe
+c:\users\user\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\bin\Debug\SimpleCYOATest.pdb
+c:\users\user\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\obj\Debug\SimpleCYOATest.exe
+c:\users\user\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\obj\Debug\SimpleCYOATest.pdb
+C:\Users\User\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\bin\Debug\SimpleCYOATest.exe.manifest
+C:\Users\User\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\bin\Debug\SimpleCYOATest.application
+C:\Users\User\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\obj\Debug\SimpleCYOATest.exe.manifest
+C:\Users\User\documents\visual studio 2015\Projects\SimpleCYOATest\SimpleCYOATest\obj\Debug\SimpleCYOATest.application
